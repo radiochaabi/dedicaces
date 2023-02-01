@@ -1,0 +1,32 @@
+DELETE:
+http://localhost/travail/news/apidedicaces/
+
+ {
+    "id": 28
+  }
+
+
+GET:
+http://localhost/travail/news/apidedicaces/
+
+
+POST:
+http://localhost/travail/news/apidedicaces/
+
+ {
+    "nom": "Boulem",
+    "pour": "Mon Fils",
+    "description": "Bonne Année 2023 Scolaire et Bonne Chance."
+ }
+
+
+UPDATE:
+PATCH:
+http://localhost/travail/news/apidedicaces/
+
+	{
+	"id":40,
+	"nom":"Boulem",
+  	"pour":"Mon Fils et ma famille",
+  	"description":"Bonne Année 2023 Scolaire et Bonne Chance."
+	}
